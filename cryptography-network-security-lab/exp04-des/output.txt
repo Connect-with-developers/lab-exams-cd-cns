@@ -1,0 +1,3 @@
+Plain : Hello world
+DES Encrypted (Base64): FQ4tg5ZQ41hXsTMkAI8JAg==
+DES Decrypted: Hello world

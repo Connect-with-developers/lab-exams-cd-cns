@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head><title>Diffie-Hellman Key Exchange</title></head>
+<body>
+<h2>Diffie-Hellman Key Exchange Demo</h2>
+<p>Prime (p): <input id="p" value="23"></p>
+<p>Generator (g): <input id="g" value="5"></p>
+<p>Alice private (a): <input id="a" value="6"></p>
+<p>Bob private (b): <input id="b" value="15"></p>
+<button onclick="exchange()">Exchange</button>
+<pre id="out"></pre>
+<script>
+function modPow(base, exp, mod) {
+  let res = 1;
+  base %= mod;
+  while (exp > 0) {
+    if (exp & 1) res = (res * base) % mod;
+    base = (base * base) % mod;
+    exp >>= 1;
+  }
+  return res;
+}
+function exchange() {
+  let p = parseInt(document.getElementById('p').value);
+  let g = parseInt(document.getElementById('g').value);
+  let a = parseInt(document.getElementById('a').value);
+  let b = parseInt(document.getElementById('b').value);
+  let A = modPow(g, a, p); // Alice public
+  let B = modPow(g, b, p); // Bob public
+  let sA = modPow(B, a, p); // Alice secret
+  let sB = modPow(A, b, p); // Bob secret
+  document.getElementById('out').textContent =
+    "A (Alice public) = g^a mod p = " + A + "\n" +
+    "B (Bob public) = g^b mod p = " + B + "\n" +
+    "Secret Alice = B^a mod p = " + sA + "\n" +
+    "Secret Bob = A^b mod p = " + sB + "\n" +
+    (sA === sB ? "SUCCESS: shared secret = " + sA : "FAILED");
+}
+// auto-run for console test
+if (typeof window === 'undefined') {
+  let p=23,g=5,a=6,b=15;
+  let A=modPow(g,a,p), B=modPow(g,b,p);
+  console.log("A="+A+" B="+B+" secretA="+modPow(B,a,p)+" secretB="+modPow(A,b,p));
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+SAMPLE OUTPUT (expected — flex not installed, not actual run):
+Enter text (Ctrl+D to end):
+hello world
+lex tool
+Lines=2 Words=4 Chars=21

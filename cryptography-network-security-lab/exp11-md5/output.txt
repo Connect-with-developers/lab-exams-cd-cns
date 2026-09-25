@@ -1,0 +1,3 @@
+Text: Hello world
+MD5: 3e25960a79dbc69b674cd4ec67a72c62
+Length: 32 hex chars (128 bits)

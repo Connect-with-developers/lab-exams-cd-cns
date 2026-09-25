@@ -1,0 +1,4 @@
+a=int, b=float
+a(int) + a(int) -> int
+a(int) + b(float) -> float
+a + c -> ERROR: c undeclared

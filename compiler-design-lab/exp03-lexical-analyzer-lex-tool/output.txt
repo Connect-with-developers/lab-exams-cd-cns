@@ -1,0 +1,8 @@
+SAMPLE OUTPUT (expected — flex not installed, not actual run):
+Enter input:
+int a = 5;
+int -> keyword
+a -> identifier
+= -> operator
+5 -> number
+; -> operator

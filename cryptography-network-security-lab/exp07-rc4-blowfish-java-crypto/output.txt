@@ -1,0 +1,6 @@
+Plain : Hello world
+RC4 Encrypted (Base64): HgPpAhtkygn4vIM=
+RC4 Decrypted: Hello world
+Blowfish Encrypted (Base64): 8r0KHnM88eY4WYi8CXEjEw==
+Blowfish Decrypted: Hello world
+Key algo: Blowfish, format: RAW

@@ -1,0 +1,22 @@
+SAMPLE OUTPUT (expected — flex/bison not installed, not actual run):
+
+--- (a) arithmetic check ---
+Enter expr:
+a+b*c
+Valid expression
+Enter expr:
+a+*b
+Invalid expression
+
+--- (b) variable check ---
+Enter variable:
+count1
+Valid variable
+Enter variable:
+1abc
+Invalid variable
+
+--- (c) calculator ---
+Enter expr:
+3+5*2
+Result = 13

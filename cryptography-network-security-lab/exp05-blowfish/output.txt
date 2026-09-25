@@ -1,0 +1,3 @@
+Plain : Hello world
+Blowfish Encrypted (Base64): Mfv1hRIAd6fUoBcAUxMEAw==
+Blowfish Decrypted: Hello world

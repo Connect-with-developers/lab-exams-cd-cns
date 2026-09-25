@@ -1,0 +1,5 @@
+p=61 q=53 n=3233 phi=3120
+Public (e,n)=(17,3233) Private (d,n)=(2753,3233)
+Msg: 65
+Encrypted: 2790
+Decrypted: 65

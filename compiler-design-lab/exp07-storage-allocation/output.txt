@@ -1,0 +1,6 @@
+static s   = 10 at 0x6010318c8010
+stack local= 20 at 0x7ffe653ea4ac
+heap *heap = 30 at 0x60106c08b2a0
+static: fixed address, whole run
+stack: inside main frame
+heap: malloc address, free it

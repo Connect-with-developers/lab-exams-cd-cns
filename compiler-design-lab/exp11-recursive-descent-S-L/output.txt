@@ -1,0 +1,4 @@
+S->(L)|a, L->S,L|S
+(a,(a,a))    -> Accepted
+(a,          -> Rejected
+a            -> Accepted

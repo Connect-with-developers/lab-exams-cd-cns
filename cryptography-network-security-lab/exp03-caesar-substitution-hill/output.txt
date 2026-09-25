@@ -1,0 +1,16 @@
+--- CaesarCipher ---
+Plain : Hello world
+Encrypted (shift 3): Khoor zruog
+Decrypted: Hello world
+
+--- SubstitutionCipher ---
+Plain : Hello world
+Key   : qwertyuiopasdfghjklzxcvbnm
+Encrypted: Itssg vgksr
+Decrypted: Hello world
+
+--- HillCipher ---
+Plain : HELLO
+Key matrix: [3 3; 2 5]
+Encrypted: HIOZHN
+Decrypted: HELLOX (X = padding for odd length)

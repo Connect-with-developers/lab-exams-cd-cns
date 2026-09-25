@@ -1,0 +1,3 @@
+Plain : Hello world
+Rijndael/AES Encrypted (Base64): uRaDJqQUdz1hNh/hv3eGmA==
+Rijndael/AES Decrypted: Hello world

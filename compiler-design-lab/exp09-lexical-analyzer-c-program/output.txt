@@ -1,0 +1,14 @@
+Input: int a = b + 12; float c = a * 2;
+int    keyword
+a      identifier
+=      operator
+b      identifier
++      operator
+12     number
+float  keyword
+c      identifier
+=      operator
+a      identifier
+*      operator
+2      number
+keywords=2 identifiers=4 numbers=2 operators=4

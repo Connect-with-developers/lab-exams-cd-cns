@@ -1,0 +1,6 @@
+Name	Type	Scope
+x	int	local
+y	float	global
+z	char	local
+Found y: float global
+w not found

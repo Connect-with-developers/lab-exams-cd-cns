@@ -1,0 +1,10 @@
+Grammar:
+E -> E+T | T
+T -> T*F | F
+F -> (E) | id
+
+FIRST(F) = { (, id }   [from F->(E)|id]
+FIRST(T) = FIRST(F) = { (, id }
+FIRST(E) = FIRST(T) = { (, id }
+
+Answer: FIRST(E)=FIRST(T)=FIRST(F)={(,id}

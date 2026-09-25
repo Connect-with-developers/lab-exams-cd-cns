@@ -1,0 +1,8 @@
+Line: int sum = a + 12; // total
+int        -> keyword
+sum        -> identifier
+=          -> operator
+a          -> identifier
++          -> operator
+12         -> constant
+// total   -> comment

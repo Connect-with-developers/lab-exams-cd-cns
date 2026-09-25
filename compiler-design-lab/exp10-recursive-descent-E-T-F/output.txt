@@ -1,0 +1,4 @@
+E->T+E|T, T->F*T|F, F->(E)|id
+a+b*c      -> Accepted
+a*(b+c)    -> Accepted
+a+*b       -> Rejected
