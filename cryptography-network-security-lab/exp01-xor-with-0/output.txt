@@ -1,12 +1,12 @@
 Original string: Hello world
 Char | ASCII | XOR with 0 | Result Char
 ----------------------------------------
-  H  |   72  |      72    |      H
+  H  |  72  |     72    |      H
   e  |  101  |     101    |      e
   l  |  108  |     108    |      l
   l  |  108  |     108    |      l
   o  |  111  |     111    |      o
-     |   32  |      32    |       
+     |  32  |     32    |       
   w  |  119  |     119    |      w
   o  |  111  |     111    |      o
   r  |  114  |     114    |      r

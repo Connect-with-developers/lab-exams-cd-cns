@@ -10,9 +10,9 @@ int isKeyword(char *w) {
 }
 int main() {
     char s[] = "int a = b + 12; float c = a * 2;";
-    int kw = 0, id = 0, num = 0, op = 0, i = 0;
+    int kw = 0, id = 0, num = 0, op = 0;
     printf("Input: %s\n", s);
-    while (s[i]) {
+    for (int i = 0; s[i] != '\0'; ) {
         if (isspace(s[i]) || s[i] == ';') { i++; continue; }
         if (isalpha(s[i]) || s[i] == '_') {
             char w[20]; int j = 0;
